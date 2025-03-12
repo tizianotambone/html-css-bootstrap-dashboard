@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +12,12 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
-               <img src="../img/duck.png" alt="" class="size">
+                <img src="../img/duck.png" alt="" class="size">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -44,62 +46,58 @@
                 <div class="col-6 my-3">
                     <label for="inputNomeAutore" class="form-label"><b>Nome Autore</b></label>
                     <input type="text" class="form-control" id="inputNomeAutore" placeholder="Inserisci il nome dell">
-                  </div>
-                  <div class="col-6 my-3">
+                </div>
+                <div class="col-6 my-3">
                     <label for="inputCognomeAutore" class="form-label"><b>Cogome Autore</b></label>
-                    <input type="text" class="form-control" id="inputCogomeAutore" placeholder="Inserisci il cognome dell">
-                  </div>
+                    <input type="text" class="form-control" id="inputCogomeAutore"
+                        placeholder="Inserisci il cognome dell">
+                </div>
 
                 <div class="col-12 my-3">
                     <label for="inputTitolo" class="form-label"> <b>Titolo</b></label>
-                    <input type="text" class="form-control" id="inputCogomeAutore" placeholder="Inserisci titolo del libro">
-                    <p class="text-secondary">Titolo versione italiana</p>
+                    <input type="text" class="form-control" id="inputCogomeAutore"
+                        placeholder="Inserisci titolo del libro">
+                    <p class="text-secondary fs-6">Titolo versione italiana</p>
                 </div>
 
-                <div class="col-12 my-3">
+                <div class="col-12 col-lg-4 my-3">
                     <b>Genere</b>
                     <label class="visually-hidden" for="specificSizeSelect">Genere</label>
                     <select class="form-select" id="specificSizeSelect">
-                      <option selected>Scegli il genere.</option>
-                      <option value="1">Uomo</option>
-                      <option value="2">Donna</option>
-                      <option value="3">no gender</option>
+                        <option selected>Scegli il genere.</option>
+                        <option value="1">Uomo</option>
+                        <option value="2">Donna</option>
+                        <option value="3">no gender</option>
                     </select>
                 </div>
 
-                <div class="col-12 my-3">
+                <div class="col-12  col-lg-4 my-3">
                     <label for="inputAnno" class="form-label"><b>Anno di Pubblicazione</b></label>
                     <input type="text" class="form-control" id="inputAnno" placeholder="Inserisci l'anno">
                 </div>
-                <div class="col-12 my-3">
+                <div class="col-12 col-lg-4  my-3">
                     <label for="inputISBN" class="form-label"><b>ISBN#</b></label>
                     <input type="text" class="form-control" id="inputISBN" placeholder="Inserisci Il codice ISBN#">
                 </div>
                 <hr class="my-4">
                 <div class="col-12 my-3">
-                    <label for="inputNote" class="form-label"><b>Note</b></label>
-                    <input type="textarea" class="form-control" id="inputNote" placeholder="Inserisci eventuali note sul libro">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                      <label class="form-check-label" for="invalidCheck2">
+                    <label for="inputNote" class="form-label">
+                        <b>Note</b>
+                    </label>
+                    <textarea class="form-control" id="inputNote"
+                        placeholder="Inserisci eventuali note sul libro"></textarea>
+                    <div class="form-check my-3">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                            Disponibile anche in digitale
                         </label>
                     </div>
-                    <div class="col-12 my-2">
-                        <input type="checkbox" name="" id="">
-                        <span>
-                            Disponibile anche in digitale
-                        </span>
-                    </div>
-                        
-                    
                     <div class="col-12">
                         <button class="btn btn-primary" type="submit">Submit form</button>
                     </div>
+                </div>
             </div>
-        </div>
-        
-        
-    </main>              
-    
+    </main>
 </body>
+
 </html>
